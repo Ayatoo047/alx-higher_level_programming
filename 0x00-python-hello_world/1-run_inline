@@ -1,6 +1,2 @@
 #!/bin/bash
-<<<<<<< HEAD
 python3 << < $PYCODE
-=======
-python3 <<< $PYCODE
->>>>>>> c2a1475bd3e5e180a565fb7e8ecf386e4120e06e
