@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-def uppercase(strl):
+def uppercase(str):
     upper = ""
-    for c in strl:
+    for c in str:
         char = chr(ord(c) - 32) if ord(c) >= ord('a') and ord(c) <= ord('z') else c
         upper += char 
-    return upper
+    print("{}".format(upper))
