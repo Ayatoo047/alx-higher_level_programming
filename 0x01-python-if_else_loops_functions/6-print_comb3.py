@@ -1,4 +1,7 @@
 #!/usr/bin/python3
-for i in range(0, 99):
-    i = (f'0{i},') if i < 10 elsei (f'{i},')
-    print(i)
+for i in range(0, 9):
+    for j in range(i + 1, 10):
+        if i == 8:
+            print("{}{}".format(i, j))
+        else:
+            print("{}{}".format(i, j), end=", ")
